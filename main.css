@@ -1,20 +1,11 @@
 /*boxA*/
-.boxA{
-  border: solid 8px #00a0e9;
-  background-color: #a0e0fe;
-  color: #00a0e9;
-}
 .boxA:after{
-  content: "BOXAの表示確認";
-  display:block;
+  content: "";
+  display: block;
   clear: both;
-}
-.box2{
-  float: left;
-  width: 50%;
 
 }
-.box3{
-  float: left;
-  width: 50%;
+.box1, .box2, .box3, .box4{
+  float:left;
+  width:50%;
 }
